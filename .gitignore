@@ -1,0 +1,5 @@
+.env
+
+# auto generated folder
+.vscode
+__pycache__
