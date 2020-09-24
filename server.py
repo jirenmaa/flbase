@@ -4,6 +4,7 @@ import tasks
 app = Flask(__name__)
 
 @app.route('/tc')
+# localhost:5000/?length=100
 def celery_tasks():
     if request.args.get("length"):
         tasks.create_firebase_data.delay(int(request.args.get("length")))
