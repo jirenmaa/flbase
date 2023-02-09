@@ -1,3 +1,8 @@
+### installing packages
+```bash
+pipenv install
+```
+
 # run server
 ```bash
 python server.py
