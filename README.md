@@ -3,6 +3,17 @@
 python server.py
 ```
 
+# run redis
+```bash
+redis-server
+```
+
+or run the server using `sudo service`
+
+```bash
+sudo service redis-server start
+```
+
 # run celery worker
 ```bash
 celery --app api.service worker --loglevel=info
